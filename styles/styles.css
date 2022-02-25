@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --white: hsl(0, 0%, 100%);
+   --light-gray: hsl(212, 45%, 89%);
+   --grayish-blue: hsl(220, 15%, 55%);
+   --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+   background-color: var(--light-gray);
+   font-family: "Outfit", sans-serif;
+   font-size: 15px;
+   text-align: center;
+}
+
+h2 {
+   color: var(--dark-blue);
+   font-weight: 700;
+   margin: 20px 0;
+}
+
+p {
+   color: var(--grayish-blue);
+}
+
+.container {
+   background-color: var(--white);
+   border-radius: 20px;
+   margin: 150px auto 100px;
+   padding: 10px;
+   height: 500px;
+   width: 320px;
+}
+
+.qr {
+   border-radius: 10px;
+   margin-top: 10px;
+   width: 290px;
+}
+
+.qr-info {
+   padding: 0 20px;
+}
