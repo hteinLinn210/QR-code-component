@@ -16,14 +16,21 @@
 body {
    background-color: var(--light-gray);
    font-family: "Outfit", sans-serif;
-   font-size: 15px;
+   font-size: 0.925rem;
    text-align: center;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
 }
 
 h2 {
    color: var(--dark-blue);
    font-weight: 700;
-   margin: 20px 0;
+   margin: 1.25rem 0;
 }
 
 p {
@@ -32,19 +39,18 @@ p {
 
 .container {
    background-color: var(--white);
-   border-radius: 20px;
-   margin: 150px auto 100px;
-   padding: 10px;
-   height: 500px;
-   width: 320px;
+   border-radius: 1.25rem;
+   padding: 0.625rem;
+   height: 31.25rem;
+   width: 20rem;
 }
 
 .qr {
-   border-radius: 10px;
-   margin-top: 10px;
-   width: 290px;
+   border-radius: 0.625rem;
+   margin-top: 0.625rem;
+   width: 18.125rem;
 }
 
 .qr-info {
-   padding: 0 20px;
+   padding: 0 1.25rem;
 }
